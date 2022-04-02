@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Blank New Tab",
+  "author": "David Furnes",
+  "description": "A blank new tab page with dark mode support.",
+  "version": "1.0",
+  "icons": {
+    "16": "webstore/icon16.png",
+    "24": "webstore/icon24.png",
+    "48": "webstore/icon48.png",
+    "128": "webstore/icon128.png"
+  },
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
